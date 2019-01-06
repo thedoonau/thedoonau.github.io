@@ -3,16 +3,35 @@
 <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
 <style>
 	body, html {
+	  height: 100%;
+	  margin: 0;
 	  background-color: black;
 	}
+	
+	.bg {
+	  /* The image used */
+	  background-image: url("doon_offroad.jpeg");
+	
+	  /* Full height */
+	  height: 100%; 
+	
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
 
-	.igmcenter {
-	  width: 80vw;
-	  height: 80vh;
+	.center {
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+	  /* transform: translate(-50%, -50%); */
+	  width: 90vw;
+	  /* height: 80vh; */
 	}
 </style>
 </head>
 <body>
-	<img src="doon_offroad.jpeg" class="imgcenter" />
+	<img src="doon_offroad.jpeg" class="center" />
 </body>
 </html>
